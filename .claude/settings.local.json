@@ -12,7 +12,9 @@
       "Bash(ai-dev-flow --help)",
       "Bash(ai-dev-flow)",
       "Bash(ai_git_status)",
-      "WebFetch(domain:edisonideas.wordpress.com)"
+      "WebFetch(domain:edisonideas.wordpress.com)",
+      "Bash(cp:*)",
+      "Bash(find:*)"
     ],
     "deny": []
   }
