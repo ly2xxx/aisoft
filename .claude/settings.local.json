@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(chmod:*)",
+      "Bash(echo $SHELL)",
+      "Bash(~/.ai-dev-flow/bin/verify-setup.sh:*)",
+      "Bash(source ~/.bashrc)",
+      "Bash(command -v:*)",
+      "Bash(source:*)",
+      "Bash(ai-dev-flow --help)",
+      "Bash(ai-dev-flow)",
+      "Bash(ai_git_status)",
+      "WebFetch(domain:edisonideas.wordpress.com)"
+    ],
+    "deny": []
+  }
+}
