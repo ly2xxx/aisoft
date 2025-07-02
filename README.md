@@ -39,7 +39,7 @@ ai-cleanup                        # Clean up merged feature branches
 
 ## 💡 Use Case Example: Full-Stack Web Application
 
-Based on the [GenAI Development Crew methodology](https://edisonideas.wordpress.com/2025/06/28/the-next-level-of-ai-powered-development-building-my-genai-development-crew/), here's how to build a complete web application:
+Based on the [GenAI Development Crew methodology](https://edisonideas.wordpress.com/2025/06/28/the-next-level-of-ai-powered-development-building-my-genai-development-crew/) and using [MCP Docker Toolkit](https://youtu.be/EmQzk2EVxGQ?si=G9MXPnkBUUvNobUz), here's how to build a complete web application:
 
 ### Step 1: Project Initialization
 ```bash
