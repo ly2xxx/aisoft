@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """
 Claude Code MCP Server - Developer Agent
 Handles code generation, file analysis, and development tasks using actual Claude Code CLI

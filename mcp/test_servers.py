@@ -7,15 +7,17 @@ import subprocess
 import json
 import asyncio
 import time
+import os
 
 async def test_mcp_server(server_path, server_name):
     """Test an MCP server by starting it and checking basic functionality"""
     print(f"\n🧪 Testing {server_name}...")
     
     try:
-        # Start the server process
+        # Start the server process (use python instead of python3 for Windows compatibility)
+        python_cmd = "python3" if os.name != "nt" else "python"
         process = subprocess.Popen(
-            ["python3", server_path],
+            [python_cmd, server_path],
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,

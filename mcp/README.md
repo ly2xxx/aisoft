@@ -15,6 +15,8 @@ Claude Desktop (Coordinator)
 - `claude-code-developer/server.py` - Developer agent using Claude Code CLI
 - `gemini-qa-agent/server.py` - QA agent using Gemini CLI
 - `claude_desktop_config.json` - Configuration for Claude Desktop (Linux/WSL)
+- `windows_claude_desktop_config.json` - Configuration for Claude Desktop on Windows (system Python)
+- `windows_venv_claude_desktop_config.json` - Configuration for Claude Desktop on Windows (virtual environment)
 - `wsl_claude_desktop_config.json` - Configuration for Claude Desktop on Windows using WSL
 - `test_servers.py` - Test script to verify MCP servers work correctly
 - `README.md` - This documentation
@@ -24,8 +26,17 @@ Claude Desktop (Coordinator)
 ### Prerequisites
 
 1. **Python 3.12+** with MCP library:
+   
+   For Linux/WSL:
    ```bash
    pip install --break-system-packages mcp
+   ```
+   
+   For Windows (in virtual environment):
+   ```powershell
+   python -m venv .venv
+   .\.venv\Scripts\activate
+   pip install mcp
    ```
 
 2. **Claude Code CLI** installed and working:
@@ -42,8 +53,14 @@ Claude Desktop (Coordinator)
 
 Run the test script to verify both MCP servers work correctly:
 
+For Linux/WSL:
 ```bash
 python3 test_servers.py
+```
+
+For Windows:
+```powershell
+python test_servers.py
 ```
 
 You should see:
@@ -58,6 +75,15 @@ You should see:
 Copy the contents of `claude_desktop_config.json` to your Claude Desktop configuration file, typically located at:
 - Linux: `~/.config/claude-desktop/claude_desktop_config.json`
 - macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+
+#### For Windows (Direct Python):
+
+If using system Python, copy the contents of `windows_claude_desktop_config.json`.
+
+If using a virtual environment, copy the contents of `windows_venv_claude_desktop_config.json`.
+
+Copy to your Claude Desktop configuration file on Windows:
+- Windows: `%APPDATA%\Claude\claude_desktop_config.json`
 
 #### For Windows (using WSL):
 

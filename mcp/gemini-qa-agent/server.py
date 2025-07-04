@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """
 Gemini CLI MCP Server - QA Agent
 Handles code review, testing, and quality assurance tasks using Gemini CLI
