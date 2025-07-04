@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "claude-code-developer": {
+      "command": "python3",
+      "args": ["/mnt/h/code/yl/aisoft/mcp/claude-code-developer/server.py"],
+      "env": {
+        "PYTHONPATH": "/mnt/h/code/yl/aisoft/mcp"
+      }
+    },
+    "gemini-qa-agent": {
+      "command": "python3", 
+      "args": ["/mnt/h/code/yl/aisoft/mcp/gemini-qa-agent/server.py"],
+      "env": {
+        "PYTHONPATH": "/mnt/h/code/yl/aisoft/mcp"
+      }
+    }
+  }
+}

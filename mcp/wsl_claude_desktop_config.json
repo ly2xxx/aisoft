@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "claude-code-developer": {
+      "command": "wsl.exe",
+      "args": [
+        "bash",
+        "-c",
+        "python3 /mnt/h/code/yl/aisoft/mcp/claude-code-developer/server.py"
+      ]
+    },
+    "gemini-qa-agent": {
+      "command": "wsl.exe",
+      "args": [
+        "bash", 
+        "-c",
+        "python3 /mnt/h/code/yl/aisoft/mcp/gemini-qa-agent/server.py"
+      ]
+    }
+  }
+}
