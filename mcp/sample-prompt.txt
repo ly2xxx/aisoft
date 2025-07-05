@@ -1,0 +1,15 @@
+https://github.com/xxx ## point to a github repo you have access to
+
+I need to develop a new feature using my development crew:
+
+Feature: Add streamlit frontend app to this project ## describe the feature you want to develop
+Language: Python ## specify the programming language
+
+Please coordinate this workflow: ## describe the workflow you want to follow
+1. Use claude-code-developer to create a feature branch and generate initial code
+2. Use gemini-qa-agent to review the generated code for security
+3. Use claude-code-developer to implement suggested improvements
+4. Use gemini-qa-agent to generate comprehensive tests
+5. Commit the final implementation
+
+Execute this workflow step by step.

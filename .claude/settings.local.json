@@ -14,7 +14,15 @@
       "Bash(ai_git_status)",
       "WebFetch(domain:edisonideas.wordpress.com)",
       "Bash(cp:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(echo $CLAUDE_CLI_PATH)",
+      "Bash(env)",
+      "WebFetch(domain:scottspence.com)",
+      "Bash(claude mcp:*)",
+      "Bash(python3:*)",
+      "Bash(gemini:*)",
+      "Bash(timeout:*)",
+      "Bash(pip install:*)"
     ],
     "deny": []
   }
